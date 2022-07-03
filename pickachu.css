@@ -1,0 +1,81 @@
+body {
+  background-color: yellow;
+}
+
+.container, .eye-right, .eye-left, .eye-right-ball, .nose, .chin-left, .chin-right, .mouth {
+  position: absolute;
+}
+
+.container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.eye-left {
+  top: -80px;
+  left: -150px;
+  width: 90px;
+  height: 40px;
+  border-top: 8px solid black;
+  border-radius: 100%;
+}
+
+.eye-right {
+  top: -100px;
+  left: 250px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.eye-right-ball {
+  top: 23px;
+  left: 8px;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.nose {
+  top: 10px;
+  left: 78px;
+  width: 30px;
+  height: 15px;
+  border-radius: 40%;
+  background-color: black;
+}
+
+.chin-right {
+  top: 50px;
+  left: 310px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 94, 0);
+  border-radius: 100%;
+}
+
+.chin-left {
+  top: 50px;
+  left: -200px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 94, 0);
+  border-radius: 100%;
+}
+
+.mouth {
+  top: 100px;
+  left: 10px;
+  width: 180px;
+  height: 30px;
+  border-bottom: 4px solid black;
+  border-radius: 50%;
+}
